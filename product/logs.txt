@@ -1,0 +1,300 @@
+2023-06-13 20:07:55 [asyncio] DEBUG: Using selector: SelectSelector
+2023-06-13 20:07:55 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2023-06-13 20:07:55 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2023-06-13 20:07:55 [scrapy.extensions.telnet] INFO: Telnet Password: 9aa5ab7cea2f86a4
+2023-06-13 20:07:55 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2023-06-13 20:07:56 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-06-13 20:07:56 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-06-13 20:07:56 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-06-13 20:07:56 [scrapy.core.engine] INFO: Spider opened
+2023-06-13 20:07:56 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-06-13 20:07:56 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-06-13 20:07:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-lacivert/> (referer: None)
+2023-06-13 20:07:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-lacivert/>
+{'brand': 'English Home',
+ 'category': 'Dokuma Halı',
+ 'list_price': '1249.99',
+ 'name': 'Absy Zen Dokuma HALI 160x230 cm Lacivert',
+ 'price': '2499.99',
+ 'product_code': '10035690009',
+ 'qty': 91,
+ 'scrap_url': 'https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-lacivert/'}
+2023-06-13 20:07:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.englishhome.com/absy-zen-dokuma-hali-80x150-cm-lacivert/> (referer: https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-lacivert/)
+2023-06-13 20:07:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.englishhome.com/absy-zen-dokuma-hali-80x150-cm-lacivert/>
+{'brand': 'English Home',
+ 'category': 'Dokuma Halı',
+ 'list_price': '399.99',
+ 'name': 'Absy Zen Dokuma Halı 80x150 Cm Lacivert',
+ 'price': '799.99',
+ 'product_code': '10035690006',
+ 'qty': 25,
+ 'scrap_url': 'https://www.englishhome.com/absy-zen-dokuma-hali-80x150-cm-lacivert/'}
+2023-06-13 20:07:57 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-lacivert/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2023-06-13 20:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.englishhome.com/absy-zen-dokuma-hali-80x150-cm-bej/> (referer: https://www.englishhome.com/absy-zen-dokuma-hali-80x150-cm-lacivert/)
+2023-06-13 20:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-gri/> (referer: https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-lacivert/)
+2023-06-13 20:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.englishhome.com/absy-zen-dokuma-hali-200x290-lacivert/> (referer: https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-lacivert/)
+2023-06-13 20:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-kirmizi/> (referer: https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-lacivert/)
+2023-06-13 20:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.englishhome.com/absy-zen-dokuma-hali-80x250-cm-lacivert/> (referer: https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-lacivert/)
+2023-06-13 20:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-pudra/> (referer: https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-lacivert/)
+2023-06-13 20:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.englishhome.com/absy-zen-dokuma-hali-120x180-cm-lacivert/> (referer: https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-lacivert/)
+2023-06-13 20:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-bej/> (referer: https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-lacivert/)
+2023-06-13 20:07:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.englishhome.com/absy-zen-dokuma-hali-80x150-cm-bej/>
+{'brand': 'English Home',
+ 'category': 'Dokuma Halı',
+ 'list_price': '399.99',
+ 'name': 'Absy Zen Dokuma Halı 80x150 Cm Bej',
+ 'price': '799.99',
+ 'product_code': '10035690021',
+ 'qty': 38,
+ 'scrap_url': 'https://www.englishhome.com/absy-zen-dokuma-hali-80x150-cm-bej/'}
+2023-06-13 20:07:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-gri/>
+{'brand': 'English Home',
+ 'category': 'Dokuma Halı',
+ 'list_price': '1249.99',
+ 'name': 'Absy Zen Dokuma Halı 160x230 Cm Gri',
+ 'price': '2499.99',
+ 'product_code': '10035690019',
+ 'qty': 66,
+ 'scrap_url': 'https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-gri/'}
+2023-06-13 20:07:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.englishhome.com/absy-zen-dokuma-hali-200x290-lacivert/>
+{'brand': 'English Home',
+ 'category': 'Dokuma Halı',
+ 'list_price': '1749.99',
+ 'name': 'Absy Zen Dokuma HALI 200x290 Lacivert',
+ 'price': '3499.99',
+ 'product_code': '10035690010',
+ 'qty': 36,
+ 'scrap_url': 'https://www.englishhome.com/absy-zen-dokuma-hali-200x290-lacivert/'}
+2023-06-13 20:07:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-kirmizi/>
+{'brand': 'English Home',
+ 'category': 'Dokuma Halı',
+ 'list_price': '1249.99',
+ 'name': 'Absy Zen Dokuma Halı 160x230 Cm Kırmızı',
+ 'price': '2499.99',
+ 'product_code': '10035690004',
+ 'qty': 52,
+ 'scrap_url': 'https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-kirmizi/'}
+2023-06-13 20:07:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.englishhome.com/absy-zen-dokuma-hali-80x250-cm-lacivert/>
+{'brand': 'English Home',
+ 'category': 'Dokuma Halı',
+ 'list_price': '599.99',
+ 'name': 'Absy Zen Dokuma Halı 80x250 Cm Lacivert',
+ 'price': '1199.99',
+ 'product_code': '10035690008',
+ 'qty': 20,
+ 'scrap_url': 'https://www.englishhome.com/absy-zen-dokuma-hali-80x250-cm-lacivert/'}
+2023-06-13 20:07:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-pudra/>
+{'brand': 'English Home',
+ 'category': 'Dokuma Halı',
+ 'list_price': '1249.99',
+ 'name': 'Absy Zen Dokuma Halı 160x230 Cm Pudra',
+ 'price': '2499.99',
+ 'product_code': '10035690014',
+ 'qty': 58,
+ 'scrap_url': 'https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-pudra/'}
+2023-06-13 20:07:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.englishhome.com/absy-zen-dokuma-hali-120x180-cm-lacivert/>
+{'brand': 'English Home',
+ 'category': 'Dokuma Halı',
+ 'list_price': '749.99',
+ 'name': 'Absy Zen Dokuma Halı 120x180 Cm Lacivert',
+ 'price': '1499.99',
+ 'product_code': '10035690007',
+ 'qty': 60,
+ 'scrap_url': 'https://www.englishhome.com/absy-zen-dokuma-hali-120x180-cm-lacivert/'}
+2023-06-13 20:07:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-bej/>
+{'brand': 'English Home',
+ 'category': 'Dokuma Halı',
+ 'list_price': '1249.99',
+ 'name': 'Absy Zen Dokuma Halı 160x230 Cm Bej',
+ 'price': '2499.99',
+ 'product_code': '10035690024',
+ 'qty': 66,
+ 'scrap_url': 'https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-bej/'}
+2023-06-13 20:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.englishhome.com/absy-zen-dokuma-hali-80x150-cm-kirmizi/> (referer: https://www.englishhome.com/absy-zen-dokuma-hali-80x150-cm-lacivert/)
+2023-06-13 20:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.englishhome.com/absy-zen-dokuma-hali-80x150-cm-pudra/> (referer: https://www.englishhome.com/absy-zen-dokuma-hali-80x150-cm-lacivert/)
+2023-06-13 20:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.englishhome.com/absy-zen-dokuma-hali-80x150-cm-gri/> (referer: https://www.englishhome.com/absy-zen-dokuma-hali-80x150-cm-lacivert/)
+2023-06-13 20:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.englishhome.com/absy-zen-dokuma-hali-80x250-cm-bej/> (referer: https://www.englishhome.com/absy-zen-dokuma-hali-80x150-cm-bej/)
+2023-06-13 20:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.englishhome.com/absy-zen-dokuma-hali-120x180-cm-bej/> (referer: https://www.englishhome.com/absy-zen-dokuma-hali-80x150-cm-bej/)
+2023-06-13 20:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.englishhome.com/absy-zen-dokuma-hali-200x290-cm-bej/> (referer: https://www.englishhome.com/absy-zen-dokuma-hali-80x150-cm-bej/)
+2023-06-13 20:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.englishhome.com/absy-zen-dokuma-hali-200x290-cm-gri/> (referer: https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-gri/)
+2023-06-13 20:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.englishhome.com/absy-zen-dokuma-hali-80x250-cm-gri/> (referer: https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-gri/)
+2023-06-13 20:07:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.englishhome.com/absy-zen-dokuma-hali-80x150-cm-kirmizi/>
+{'brand': 'English Home',
+ 'category': 'Dokuma Halı',
+ 'list_price': '399.99',
+ 'name': 'Absy Zen Dokuma Halı 80x150 Cm Kırmızı',
+ 'price': '799.99',
+ 'product_code': '10035690001',
+ 'qty': 82,
+ 'scrap_url': 'https://www.englishhome.com/absy-zen-dokuma-hali-80x150-cm-kirmizi/'}
+2023-06-13 20:07:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.englishhome.com/absy-zen-dokuma-hali-80x150-cm-pudra/>
+{'brand': 'English Home',
+ 'category': 'Dokuma Halı',
+ 'list_price': '399.99',
+ 'name': 'Absy Zen Dokuma Halı 80x150 Cm Pudra',
+ 'price': '799.99',
+ 'product_code': '10035690011',
+ 'qty': 29,
+ 'scrap_url': 'https://www.englishhome.com/absy-zen-dokuma-hali-80x150-cm-pudra/'}
+2023-06-13 20:07:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.englishhome.com/absy-zen-dokuma-hali-80x150-cm-gri/>
+{'brand': 'English Home',
+ 'category': 'Dokuma Halı',
+ 'list_price': '399.99',
+ 'name': 'Absy Zen Dokuma Halı 80x150 Cm Gri',
+ 'price': '799.99',
+ 'product_code': '10035690016',
+ 'qty': 72,
+ 'scrap_url': 'https://www.englishhome.com/absy-zen-dokuma-hali-80x150-cm-gri/'}
+2023-06-13 20:07:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.englishhome.com/absy-zen-dokuma-hali-80x250-cm-bej/>
+{'brand': 'English Home',
+ 'category': 'Dokuma Halı',
+ 'list_price': '599.99',
+ 'name': 'Absy Zen Dokuma Halı 80x250 Cm Bej',
+ 'price': '1199.99',
+ 'product_code': '10035690023',
+ 'qty': 15,
+ 'scrap_url': 'https://www.englishhome.com/absy-zen-dokuma-hali-80x250-cm-bej/'}
+2023-06-13 20:07:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.englishhome.com/absy-zen-dokuma-hali-120x180-cm-bej/>
+{'brand': 'English Home',
+ 'category': 'Dokuma Halı',
+ 'list_price': '749.99',
+ 'name': 'Absy Zen Dokuma Halı 120x180 Cm Bej',
+ 'price': '1499.99',
+ 'product_code': '10035690022',
+ 'qty': 91,
+ 'scrap_url': 'https://www.englishhome.com/absy-zen-dokuma-hali-120x180-cm-bej/'}
+2023-06-13 20:07:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.englishhome.com/absy-zen-dokuma-hali-200x290-cm-bej/>
+{'brand': 'English Home',
+ 'category': 'Dokuma Halı',
+ 'list_price': '1749.99',
+ 'name': 'Absy Zen Dokuma Halı 200x290 Cm Bej',
+ 'price': '3499.99',
+ 'product_code': '10035690025',
+ 'qty': 29,
+ 'scrap_url': 'https://www.englishhome.com/absy-zen-dokuma-hali-200x290-cm-bej/'}
+2023-06-13 20:07:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.englishhome.com/absy-zen-dokuma-hali-200x290-cm-gri/>
+{'brand': 'English Home',
+ 'category': 'Dokuma Halı',
+ 'list_price': '1749.99',
+ 'name': 'Absy Zen Dokuma Halı 200x290 Cm Gri',
+ 'price': '3499.99',
+ 'product_code': '10035690020',
+ 'qty': 31,
+ 'scrap_url': 'https://www.englishhome.com/absy-zen-dokuma-hali-200x290-cm-gri/'}
+2023-06-13 20:07:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.englishhome.com/absy-zen-dokuma-hali-80x250-cm-gri/>
+{'brand': 'English Home',
+ 'category': 'Dokuma Halı',
+ 'list_price': '599.99',
+ 'name': 'Absy Zen Dokuma Halı 80x250 Cm Gri',
+ 'price': '1199.99',
+ 'product_code': '10035690018',
+ 'qty': 14,
+ 'scrap_url': 'https://www.englishhome.com/absy-zen-dokuma-hali-80x250-cm-gri/'}
+2023-06-13 20:07:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.englishhome.com/absy-zen-dokuma-hali-200x290-kirmizi/> (referer: https://www.englishhome.com/absy-zen-dokuma-hali-200x290-lacivert/)
+2023-06-13 20:07:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.englishhome.com/absy-zen-dokuma-hali-80x250-cm-kirmizi/> (referer: https://www.englishhome.com/absy-zen-dokuma-hali-80x250-cm-lacivert/)
+2023-06-13 20:07:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.englishhome.com/absy-zen-dokuma-hali-200x290-cm-pudra/> (referer: https://www.englishhome.com/absy-zen-dokuma-hali-200x290-lacivert/)
+2023-06-13 20:07:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.englishhome.com/absy-zen-dokuma-hali-120x180-cm-pudra/> (referer: https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-pudra/)
+2023-06-13 20:07:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.englishhome.com/absy-zen-dokuma-hali-80x250-cm-pudra/> (referer: https://www.englishhome.com/absy-zen-dokuma-hali-80x250-cm-lacivert/)
+2023-06-13 20:07:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.englishhome.com/absy-zen-dokuma-hali-120x180-cm-kirmizi/> (referer: https://www.englishhome.com/absy-zen-dokuma-hali-160x230-cm-kirmizi/)
+2023-06-13 20:07:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.englishhome.com/absy-zen-dokuma-hali-200x290-kirmizi/>
+{'brand': 'English Home',
+ 'category': 'Dokuma Halı',
+ 'list_price': '1749.99',
+ 'name': 'Absy Zen Dokuma HALI 200x290 Kırmızı',
+ 'price': '3499.99',
+ 'product_code': '10035690005',
+ 'qty': 53,
+ 'scrap_url': 'https://www.englishhome.com/absy-zen-dokuma-hali-200x290-kirmizi/'}
+2023-06-13 20:07:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.englishhome.com/absy-zen-dokuma-hali-80x250-cm-kirmizi/>
+{'brand': 'English Home',
+ 'category': 'Dokuma Halı',
+ 'list_price': '599.99',
+ 'name': 'Absy Zen Dokuma Halı 80x250 Cm Kırmızı',
+ 'price': '1199.99',
+ 'product_code': '10035690003',
+ 'qty': 19,
+ 'scrap_url': 'https://www.englishhome.com/absy-zen-dokuma-hali-80x250-cm-kirmizi/'}
+2023-06-13 20:07:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.englishhome.com/absy-zen-dokuma-hali-200x290-cm-pudra/>
+{'brand': 'English Home',
+ 'category': 'Dokuma Halı',
+ 'list_price': '1749.99',
+ 'name': 'Absy Zen Dokuma Halı 200x290 Cm Pudra',
+ 'price': '3499.99',
+ 'product_code': '10035690015',
+ 'qty': 51,
+ 'scrap_url': 'https://www.englishhome.com/absy-zen-dokuma-hali-200x290-cm-pudra/'}
+2023-06-13 20:07:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.englishhome.com/absy-zen-dokuma-hali-120x180-cm-pudra/>
+{'brand': 'English Home',
+ 'category': 'Dokuma Halı',
+ 'list_price': '749.99',
+ 'name': 'Absy Zen Dokuma Halı 120x180 Cm Pudra',
+ 'price': '1499.99',
+ 'product_code': '10035690012',
+ 'qty': 77,
+ 'scrap_url': 'https://www.englishhome.com/absy-zen-dokuma-hali-120x180-cm-pudra/'}
+2023-06-13 20:07:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.englishhome.com/absy-zen-dokuma-hali-80x250-cm-pudra/>
+{'brand': 'English Home',
+ 'category': 'Dokuma Halı',
+ 'list_price': '599.99',
+ 'name': 'Absy Zen Dokuma Halı 80x250 Cm Pudra',
+ 'price': '1199.99',
+ 'product_code': '10035690013',
+ 'qty': 19,
+ 'scrap_url': 'https://www.englishhome.com/absy-zen-dokuma-hali-80x250-cm-pudra/'}
+2023-06-13 20:07:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.englishhome.com/absy-zen-dokuma-hali-120x180-cm-kirmizi/>
+{'brand': 'English Home',
+ 'category': 'Dokuma Halı',
+ 'list_price': '749.99',
+ 'name': 'Absy Zen Dokuma Halı 120x180 Cm Kırmızı',
+ 'price': '1499.99',
+ 'product_code': '10035690002',
+ 'qty': 91,
+ 'scrap_url': 'https://www.englishhome.com/absy-zen-dokuma-hali-120x180-cm-kirmizi/'}
+2023-06-13 20:07:59 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-06-13 20:07:59 [scrapy.extensions.feedexport] INFO: Stored json feed (24 items) in: englishome_data.json
+2023-06-13 20:07:59 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 12131,
+ 'downloader/request_count': 24,
+ 'downloader/request_method_count/GET': 24,
+ 'downloader/response_bytes': 158257,
+ 'downloader/response_count': 24,
+ 'downloader/response_status_count/200': 24,
+ 'dupefilter/filtered': 169,
+ 'elapsed_time_seconds': 2.980249,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 6, 13, 17, 7, 59, 410912),
+ 'httpcompression/response_bytes': 2474216,
+ 'httpcompression/response_count': 24,
+ 'item_scraped_count': 24,
+ 'log_count/DEBUG': 52,
+ 'log_count/INFO': 11,
+ 'request_depth_max': 4,
+ 'response_received_count': 24,
+ 'scheduler/dequeued': 24,
+ 'scheduler/dequeued/memory': 24,
+ 'scheduler/enqueued': 24,
+ 'scheduler/enqueued/memory': 24,
+ 'start_time': datetime.datetime(2023, 6, 13, 17, 7, 56, 430663)}
+2023-06-13 20:07:59 [scrapy.core.engine] INFO: Spider closed (finished)
