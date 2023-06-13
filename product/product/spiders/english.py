@@ -5,7 +5,7 @@ from ..items import ProductItem
 from bs4 import BeautifulSoup
 
 
-API_KEY='ff3cc8159137f06335075d726050e683'
+API_KEY=''
 
 headers = {
 
